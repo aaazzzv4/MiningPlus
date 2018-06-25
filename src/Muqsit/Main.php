@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
 	    $this->getServer()->getPluginManager()->registerEvents($this, $this);
 		    @mkdir($this->getDataFolder());
 	       # Config isn't used.
-	       $this->getLogger()->info(" enabled"); # Don't add this log message at beggining of function it can be misleading
+	       $this->getLogger()->info("enabled"); # Don't add this log message at beggining of function it can be misleading
 	}
 
 	// Thanks to @PrimusLV
